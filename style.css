@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+.project {
+  border: 5px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+.h2{
+  background-color: aquamarine ;
+  color: rgb(10, 7, 6);
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 0150px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #333;
+  color: #fff;
+}
+.module {
+  
+   width: 10cm;
+  text-align: center;
+  margin: 010px;
+  background-color: rgb(26, 184, 184);
+  margin-left: 500px;
+  font-size: 24px;
+  color: #333; /* Couleur du texte */
+  padding: 0px 0px 0px 05px;
+  height: 50px;
+}
+.module h3:hover {
+  background-color: chocolate;
+}
+.tp {
+  display: flex;
+  align-items: center;
+}
+
+.image2 {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+}
+.img0 {
+  width: 30px;
+  height: auto;
+  padding-right: 8px;
+}
+
+.instgram {
+  display: flex;
+  align-items: center;
+}
+
+.img1 {
+  width: 30px;
+  height: auto;
+  padding-right: 8px;
+}
+
+.emaill {
+  display: flex;
+  align-items: center;
+}
+
+.img5 {
+  width: 30px;
+  height: auto;
+  padding-right: 8px;
+}
+
+
+.c1 a:hover{
+    background-color: rgb(218, 162, 93);
+}
+
+.hh2{
+  background-color: aquamarine ;
+  color: rgb(10, 7, 6);
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 0100px;
+}
+
+
+
+
+
+
+
