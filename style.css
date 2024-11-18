@@ -3,6 +3,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: rgb(179, 200, 206);
 }
 
 header {
@@ -11,7 +12,15 @@ header {
   padding: 1rem 0;
   text-align: center;
 }
-
+.imgp{
+  border-radius: 35px;
+  transform: rotateX(20deg) rotateY(30deg);
+    perspective: 1000px;
+    transition: transform 0.5s ease;
+}
+.imgp:hover {
+  transform: rotateX(0deg) rotateY(0deg);
+}
 nav ul {
   list-style: none;
   padding: 0;
@@ -33,9 +42,16 @@ section {
 }
 
 .project {
-  border: 5px solid #ccc;
+  border: 2.5px solid #0c0c0c;
+  border-radius: 10px;
   padding: 10px;
   margin: 10px 0;
+ 
+}
+.project {border-style: inset;}
+
+.project p{
+  text-shadow: 1px 1px;
 }
 .h2{
   background-color: aquamarine ;
@@ -44,6 +60,8 @@ section {
   text-transform: uppercase;
   font-size: 20px;
   width: 0150px;
+  transform: rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+  perspective: 500px;
 }
 
 footer {
@@ -54,16 +72,34 @@ footer {
 }
 .module {
   
-   width: 10cm;
+   width: 7cm;
   text-align: center;
   margin: 010px;
   background-color: rgb(26, 184, 184);
   margin-left: 500px;
   font-size: 24px;
-  color: #333; /* Couleur du texte */
+  color: #ffffff; /* Couleur du texte */
   padding: 0px 0px 0px 05px;
   height: 50px;
+  border-radius: 15px;
+  text-shadow: 0 0 5px #ffffff, 
+                 0 0 10px #ffffff, 
+                 0 0 20px #6200ff, 
+                 0 0 30px #6200ff, 
+                 0 0 40px #6200ff, 
+                 0 0 50px #6200ff, 
+                 0 0 60px #6200ff;
+    animation: scintiller 1.5s infinite alternate;
+    transform: rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+    perspective: 500px;
+    transform: rotateX(20deg) rotateY(30deg);
+    perspective: 1000px;
+    transition: transform 0.5s ease;
 }
+.module:hover {
+  transform: rotateX(0deg) rotateY(0deg);
+}
+
 .module h3:hover {
   background-color: chocolate;
 }
@@ -71,7 +107,9 @@ footer {
   display: flex;
   align-items: center;
 }
-
+.tp  {
+  gap: 10px;
+}
 .image2 {
   width: 50px;
   height: auto;
@@ -121,6 +159,8 @@ footer {
   text-transform: uppercase;
   font-size: 20px;
   width: 0100px;
+  transform: rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+  perspective: 500px;
 }
 
 
